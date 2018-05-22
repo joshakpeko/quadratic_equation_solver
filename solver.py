@@ -36,7 +36,7 @@ def main():
         while True:
             print()
             resp = input(
-                    "Compute solution(s) of %dx² %s%dx %s%d = 0 ? "
+                    "Compute solution(s) for %dx² %s%dx %s%d = 0 ? "
                     "[y/n]: " % (a, s1, b, s2, c)).lower()
             if resp in ("o", "y", "n"):
                 break
