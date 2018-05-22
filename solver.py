@@ -3,11 +3,8 @@
 """ Quadratic Equation Solver """
 
 import sys
-import math
 import time
 import numbers
-#from fractions import Fraction
-#from decimal import Decimal
 
 import sympy
 
