@@ -56,16 +56,10 @@ def main():
         suffix = "" if len(s) < 1 else "s"
         end = ":" if len(s) > 0 else "."
 
-        print("(%d) solution%s found%s" % (len(s), suffix, end))
+        print("(%d) solution%s found%s\n" % (len(s), suffix, end))
         if len(s) == 1:
-            #print("\tx = ", end=""); sympy.pprint(s[0]) 
             sympy.pprint(s[0])
         elif len(s) > 1:
-            #for i, x in enumerate(s):
-                # x1 = .. or x2 = ..
-                #print("\tx%d = " % (i+1), end=""); sympy.pprint(s[i])
-                #sympy.pprint(s[0])
-                #sympy.pprint(s[1])
                 sympy.pprint((s[0], s[1]))
 
         print()
