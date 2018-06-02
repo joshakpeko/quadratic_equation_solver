@@ -14,7 +14,7 @@ def main():
     print("\n")
     print("QUADRATIC EQUATION SOLVER".center(65, "~"), "\n")
     print("This program solves Quadratic Equations of form: "
-            "ax² + bx + c.\n")
+            "ax² + bx + c = 0.\n")
     time.sleep(1)
     #--------------sympy pretty printing instructions-----------
     sympy.init_printing(use_latex=True)
